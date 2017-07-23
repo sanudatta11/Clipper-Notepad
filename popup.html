@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Clipper</title>
+	<link rel="stylesheet" href="stylesheet.css" />
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+</head>
+
+<body>
+	<div id="wrapper">
+    <h1>
+      <img src="imgs/notepad-icon-12.png" alt=""> Clipper 
+    </h1>
+    <ul>
+        <li><a class="active headings" href="#home">Home</a></li>
+        <li><a href="#news" class = "headings">Multi Notes -Coming soon</a></li>
+        <li><a href="#contact" class = "headings">Sign In - Coming Soon</a></li>
+    </ul>
+        <div id="notepad">
+            <textarea id="edit_notepad"></textarea>
+        </div>
+		<div id="bottom_panel">
+			<span id="display_last_update" class="headings"></span>
+			<span id="autosaver_overlay"></span>
+			<span id="manualsyncer"></span>
+			<span id="autosaver"></span>
+			<a href="#" id="less_size" title="Decrease Clipper Size!"></a>
+			<a href="#" id="sync_button" title="Manually sync your notes."></a>
+			<a href="#" id="save_button" title="Save notes as a .txt file!"></a>
+			<a href="#" id="reset_button" title="Reset Note in the window!"></a>
+			<a href="#" id="more_size" title="Increase Clipper Size!"></a>
+		</div>
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="jquery.caretpos.js"></script>
+	<script src="popup.js"></script>
+</body>
+
+</html>
