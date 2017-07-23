@@ -1,0 +1,2 @@
+# Clipper-Notepad
+This is a notepad clipper extension. Browse through the web with ease, and take notes on the go. Now you don't need to swap between apps, neither copy paste.  Write directly by clicking on Clipper or select and right click, you will get an option to add it to the pad.  Download the whole of the text directly into .txt file at once.  Resize the window to make it as you want it to be, multiple notes and onine sync coming soon.
